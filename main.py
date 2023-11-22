@@ -12,4 +12,4 @@ if __name__ == '__main__':
     if task_number == 1:
         print(f'{scrabble.Scrabble(input("Enter ur word: ")).count_score()}')
     else:
-        song.Song().show_song()  # TF is going on there
+        song.Song().call_menu()
